@@ -1,0 +1,75 @@
+/*===== GLOBAL ======*/
+
+body{
+	font-family: helvetica;
+  	background-color: #efc94c;
+}
+
+/*===== COMPONENTS ======*/
+
+article{
+  margin: 0 auto;
+  width: 600px;
+  text-align: left;
+  display: none;
+}
+
+#results, #alert{
+  display:none;
+ 
+}
+
+.jsInput{ 
+	text-align: center;
+	width: 10rem;
+	height: 2rem;
+	font-size: 1.5rem; 
+}
+
+#inputButton{
+	color: white;
+    width: 4rem;
+    height: 26px;
+    background: #45b29d;
+}
+
+
+
+/*======FONTS=======*/
+
+h1,
+h3,
+p,
+li,
+#alert,
+#thanks,
+.choice{
+	color: #334d5c;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h3{
+	font-size: 2rem;
+}
+
+p,
+li {
+	font-size: 1.5rem;
+}
+
+li{
+  list-style:none;
+}
+
+.fizz {
+    color: #df5a49;
+}
+.buzz {
+    color: #45b29d;
+}
+.fizzbuzz {
+    color: #e27a3f;
+}
